@@ -1,0 +1,3 @@
+androguard
+tabulate
+streamlit 

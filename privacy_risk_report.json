@@ -1,0 +1,50 @@
+{
+  "app_name": "F-Droid",
+  "package": "org.fdroid.fdroid",
+  "permissions": [
+    "android.permission.QUERY_ALL_PACKAGES",
+    "android.permission.NFC",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ENFORCE_UPDATE_OWNERSHIP",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.REQUEST_DELETE_PACKAGES",
+    "android.permission.MANAGE_EXTERNAL_STORAGE",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.CAMERA",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.BLUETOOTH_CONNECT",
+    "android.permission.USB_PERMISSION",
+    "org.fdroid.fdroid.permission.UPDATE_REPOS",
+    "android.permission.INTERNET",
+    "android.permission.BLUETOOTH",
+    "android.permission.RECEIVE_BOOT_COMPLETED",
+    "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.CHANGE_WIFI_STATE",
+    "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION",
+    "android.permission.WRITE_SETTINGS",
+    "android.permission.BLUETOOTH_SCAN",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.POST_NOTIFICATIONS",
+    "org.fdroid.fdroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.CHANGE_NETWORK_STATE"
+  ],
+  "high_risk_permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.CAMERA",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.INTERNET"
+  ],
+  "sensitive_apis": [
+    "Camera",
+    "getSSID",
+    "getDeviceId",
+    "getSerial",
+    "getInstalledPackages",
+    "getLastKnownLocation"
+  ],
+  "risk_score": 44,
+  "risk_level": "High"
+}
