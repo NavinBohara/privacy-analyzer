@@ -3,7 +3,7 @@ import json
 import os
 from privacy_risk_analyzer import analyze_apk
 
-st.title("Privacy Risk Analyzer for Android APKs")
+st.title("AppGuardian - Privacy Risk Analyzer for Android APKs")
 
 uploaded_file = st.file_uploader("Upload an APK file", type=["apk"])
 
